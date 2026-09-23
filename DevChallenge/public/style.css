@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 40px;
+}
+
+* {
+    font-family: consolas;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#subjectSelect {
+    max-width: 200px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 8px 14px;
+    background: #2d6cdf;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b4fb5;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    padding: 14px 12px;
+    background: white;
+    font-weight: bold;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background: #f7f7f7;
+}
+
+tfoot {
+    border-top: 2px solid #aaa;
+}
+
+.moyennes-title {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 700px;
+}
+
+.moyennes-header th {
+    padding: 12px 8px;
+    background: #f8f8f8;
+    border-top: 2px solid #aaa;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.moyennes-label {
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.module-moyenne td {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f8f8f8;
+}
+
+.module-moyenne .moyennes-label {
+    display: inline;
+    margin-right: 10px;
+}
+
+.moyennes-finales {
+    margin-top: 20px;
+}
+
+.moyennes-finales .moyennes-values td {
+    padding: 14px 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.moyennes-finales .moyennes-values td:last-child {
+    color: #2d6cdf;
+    background: #f4f7ff;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+header div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.etml {
+    font-family: etml;
+}

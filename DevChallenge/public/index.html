@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table des notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div>
+        <p class="etml">
+            ETML
+        </p>
+    </div>
+</header>
+<h1>Système de notes</h1>
+
+<div class="form">
+    <select id="subjectSelect"></select>
+    <input id="score" type="number" placeholder="Note" min="1" max="6">
+    <button onclick="addGrade()">Ajouter</button>
+</div>
+
+<div class="form">
+    <input id="newSubject" placeholder="Nom du module">
+
+    <select name="trimestre" id="trimestre-select">
+        <option value="">Choisissez un semestre</option>
+        <option value="1">Trimestre 1</option>
+        <option value="2">Trimestre 2</option>
+        <option value="3">Trimestre 3</option>
+        <option value="4">Trimestre 4</option>
+    </select>
+    
+    <button onclick="addSubject()">Ajouter un module</button>
+</div>
+
+<div id="table"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
